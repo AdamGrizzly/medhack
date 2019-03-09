@@ -1,0 +1,188 @@
+.single-view-container {
+	padding: 10px 5%;
+	background: #e8edf2;
+	min-height: 100vh;
+}
+
+.medicine-header, .meidcine-row, .place-info {
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+.medicine-header {
+	margin-top: 10px;
+}
+.medicine-header > * {
+	display: flex;
+	flex-basis: 10%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.place-medicine {
+	background: white;
+	border-radius: 5px; 
+	padding-top: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.meidcine-row {
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+}
+
+.meidcine-row > *{
+	display: block;
+	padding: 10px 0px;
+	margin: 0;
+	flex-basis: 13%;
+	font-size: 17px;
+	overflow: hidden;
+	text-align: left;
+	white-space: pre-line;
+	margin-right: ;
+	word-wrap: break-word;
+}
+
+.meidcine-row > .name {
+    color: #11a8ff;
+    font-weight: bold;
+    margin-left: 1%;
+   
+}
+
+.meidcine-row > .code {
+	color: lightgrey;
+
+}
+
+.meidcine-row > .form {
+	color: lightgrey;
+	padding-left: 2%;
+}
+.meidcine-row > .date{
+	padding-left: 3%;
+}
+.amount{
+	padding-left: 2%;
+}
+
+.place-info {
+	display: flex;
+	border-radius: 5px;
+	padding: 10px 5%;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.place-info > div{
+	text-align: left;
+	font-weight: bold;
+	width: 20%;
+}
+@media screen and (max-width: 1126px){
+		.meidcine-row > *{
+				font-size: 14px;
+				padding: 10px 0px;
+				flex-basis: 16%;
+			}
+			
+			.date{
+				font-size: 13px;
+				
+			}
+			.form{
+				margin-right: -3%;
+			}
+			.amount{
+				padding-left: 4%; 
+			}
+			
+			.right-info button{
+				width: 120%;
+				font-size: 14px;
+				margin-left: 0%;
+			}
+}
+@media screen and (max-width: 936px) {
+	.place-info > div p{
+		font-size: 12px;
+	}
+	.place-medicine input{
+		height: 35px;
+	}
+	.place-medicine button{
+		height: 35px;
+	}
+	.meidcine-row > *{
+		font-size: 9px;
+		padding: 10px 0px;
+		flex-basis: 15%;
+	}
+
+	.code{
+		padding-left: 3%;
+	}
+	.date{
+		font-size: 9px;
+		margin-left: 2%;
+	}
+	.form{
+		margin-right: 0%;
+	}
+	.amount{
+		padding-left: 4%; 
+	}
+	.medicine-header > * {
+		display: flex;
+		flex-basis: 10%;
+		font-size: 8px;
+		font-weight: bold;
+	}
+	.right-info button{
+		width: 150%;
+		font-size: 10px;
+		margin-left: -40%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.place-info > div p{
+		font-size: 10px;
+	}
+	.place-medicine input{
+		height: 25px;
+	}
+	.place-medicine button{
+		height: 25px;
+	}
+	.meidcine-row > *{
+		font-size: 6px;
+		padding: 10px 0px;
+		flex-basis: 14%;
+	}
+	.code{
+		padding-left: 2%;
+	}
+	.date{
+		font-size: 5px;
+	}
+	.amount{
+		padding-left: 2.5%; 
+	}
+
+	
+	.medicine-header > * {
+		display: flex;
+		flex-basis: 10%;
+		font-size: 5px;
+		font-weight: bold;
+	}
+	.right-info button{
+		width: 200%;
+		font-size: 10px;
+		margin-left: -80%;
+	}
+}

@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+	flex-direction: row-reverse;
+	background: #151e2d;
+}
+
+.title {
+	margin: 0px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.title {
+	color: #49b6ff;
+}
+
+.title > span {
+	color: #68ff3a;
+}

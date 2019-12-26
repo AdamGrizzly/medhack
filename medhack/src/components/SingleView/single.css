@@ -41,7 +41,6 @@
 	overflow: hidden;
 	text-align: left;
 	white-space: pre-line;
-	margin-right: ;
 	word-wrap: break-word;
 }
 
@@ -58,7 +57,7 @@
 }
 
 .meidcine-row > .form {
-	color: lightgrey;
+	color: #11a8ff;
 	padding-left: 2%;
 }
 .meidcine-row > .date{

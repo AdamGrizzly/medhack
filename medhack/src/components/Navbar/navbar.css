@@ -1,6 +1,7 @@
 .navbar {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
+	justify-content: center;
 	background: #151e2d;
 }
 

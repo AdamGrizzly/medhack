@@ -11,7 +11,7 @@ const Router = () => (
 				<div className="page_content">
 					<Switch>
 						<Route path="/" component={Main} exact />
-						<Route path="/institution/:id" component={SingleView} exact />
+						<Route path="/institution/:id/:name" component={SingleView} exact />
 						<Route path="/institution/:id/movements" component={InfoView} exact />
 					</Switch>
 				</div>

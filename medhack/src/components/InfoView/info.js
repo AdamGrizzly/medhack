@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
 import 'antd/lib/input/style/css'; 
-import './info.css';
+
 
 class InfoView extends Component {
   state = {

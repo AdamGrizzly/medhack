@@ -11,7 +11,7 @@ class Navbar extends Component {
             className="nav_el" to={{
               pathname: `/`
             }}>
-            <p className='title'>MED<span>HACK</span></p>
+            <p className='title'>OpenMed</p>
           </Link>
           </div>
       </div>
